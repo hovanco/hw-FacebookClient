@@ -1,0 +1,62 @@
+@space_between_component: 15px;
+
+.advance-script-filter {
+    .btn-trigger-popover {
+        height: 37px;
+        width: 156px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: @color_select_background;
+        border-color: @color_select_border;
+
+        .anticon {
+            font-size: 18px;
+            margin-top: 5px;
+        }
+    }
+}
+
+.advance-script-filter-lead-text {
+    display: block;
+    margin-bottom: @space_between_component;
+}
+
+.advance-script-filter-item {
+    display: flex;
+    margin-bottom: @space_between_component;
+
+    .right-side {
+        margin-left: @space_between_component;
+        display: flex;
+        flex: 1 auto;
+        align-items: center;
+
+        &-action-type {
+            display: flex;
+            justify-content: space-between;
+
+            button.ant-btn:not(:first-child) {
+                margin-left: @space_between_component;
+            }
+        }
+
+        &-action-active {
+            width: 100%;
+        }
+    }
+
+    .clear-filter-item {
+        margin-left: @space_between_component;
+        display: flex;
+        align-items: center;
+
+        .anticon {
+            svg {
+                width: 20px;
+                height: 20px;
+                color: #848484;
+            }
+        }
+    }
+}

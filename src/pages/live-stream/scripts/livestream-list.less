@@ -1,0 +1,66 @@
+.livestream-list-section {
+    .ant-select {
+        .ant-select-selector {
+            @selector_height: 37px;
+
+            height: @selector_height;
+            background-color: @color_select_background;
+            border-color: @color_select_border;
+
+            .ant-select-selection-item {
+                margin: auto;
+            }
+
+            .ant-select-selection-placeholder {
+                line-height: @selector_height;
+            }
+        }
+
+        .ant-select-arrow {
+            top: 46%;
+
+            & > span > svg {
+                width: 18px;
+                height: 18px;
+                fill: @color_select_icon_chevron_down_svgfill;
+            }
+        }
+    }
+
+    .ant-card-body {
+        padding: 0;
+        border: solid 1px #cfd2d4;
+        border-radius: 2px;
+
+        .livestream-table-filter {
+            margin: 20px 20px 20px 20px;
+        }
+    }
+
+    .ant-table-thead {
+        & > tr > th.ant-table-cell {
+            background-color: #f6f8f8;
+            border-top: solid 1px #cfd2d4;
+            border-bottom: solid 1px #cfd2d4;
+            height: 41px;
+        }
+    }
+
+    .ant-table-tbody {
+        color: #717171;
+    }
+
+    .script-table-pagination {
+        ul.ant-pagination {
+            float: right;
+            margin: 20px 0;
+        }
+    }
+
+    .script-link {
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        height: 30px;
+    }
+}

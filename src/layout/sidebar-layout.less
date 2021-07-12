@@ -1,0 +1,34 @@
+.wrap-layout-sidebar {
+    display: flex;
+    flex: 1;
+    // height: calc(100vh - @size_header);
+
+    flex-direction: row;
+
+    .main {
+        flex: 1;
+
+        .heading {
+            padding: @size_space @size_space + 5;
+            border-bottom: 1px solid @color_border;
+            font-size: 18px;
+            font-weight: 500;
+            background: #fff;
+            .btn-add {
+                background-color: '#307dd2';
+                border-color: '#307dd2';
+                display: 'flex';
+                align-items: 'center';
+                img {
+                    margin-right: 5px;
+                }
+            }
+        }
+
+        .content {
+            padding: @size_space + 5;
+            height: calc(100vh - 65px);
+            overflow-y: auto;
+        }
+    }
+}

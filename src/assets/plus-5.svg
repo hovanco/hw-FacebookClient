@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="88" height="152" viewBox="0 0 88 152">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{fill:#a7cae8}
+        </style>
+    </defs>
+    <g id="Group_2815" transform="translate(-477 -154)">
+        <g id="Group_2813" transform="translate(87 -92)">
+            <g id="ic-actions-add-simple" transform="translate(390 246)">
+                <path id="Rectangle_24" d="M0 0H24V24H0z" class="cls-1"/>
+                <g id="Layer" transform="translate(-.05 -.05)">
+                    <path id="Path_62" d="M3 12a1 1 0 0 1 .9-1h16.2a1 1 0 0 1 0 2H3.9a1 1 0 0 1-.9-1z" class="cls-2"/>
+                    <path id="Path_63" d="M12 3a1 1 0 0 1 1 .9v16.2a1 1 0 0 1-2 0V3.9a1 1 0 0 1 1-.9z" class="cls-2"/>
+                </g>
+            </g>
+            <g id="ic-actions-add-simple-2" transform="translate(390 310)">
+                <path id="Rectangle_24-2" d="M0 0H24V24H0z" class="cls-1"/>
+                <g id="Layer-2" transform="translate(-.05 -.05)">
+                    <path id="Path_62-2" d="M3 12a1 1 0 0 1 .9-1h16.2a1 1 0 0 1 0 2H3.9a1 1 0 0 1-.9-1z" class="cls-2"/>
+                    <path id="Path_63-2" d="M12 3a1 1 0 0 1 1 .9v16.2a1 1 0 0 1-2 0V3.9a1 1 0 0 1 1-.9z" class="cls-2"/>
+                </g>
+            </g>
+            <g id="ic-actions-add-simple-3" transform="translate(390 374)">
+                <path id="Rectangle_24-3" d="M0 0H24V24H0z" class="cls-1"/>
+                <g id="Layer-3" transform="translate(-.05 -.05)">
+                    <path id="Path_62-3" d="M3 12a1 1 0 0 1 .9-1h16.2a1 1 0 0 1 0 2H3.9a1 1 0 0 1-.9-1z" class="cls-2"/>
+                    <path id="Path_63-3" d="M12 3a1 1 0 0 1 1 .9v16.2a1 1 0 0 1-2 0V3.9a1 1 0 0 1 1-.9z" class="cls-2"/>
+                </g>
+            </g>
+            <g id="ic-actions-add-simple-4" transform="translate(454 246)">
+                <path id="Rectangle_24-4" d="M0 0H24V24H0z" class="cls-1"/>
+                <g id="Layer-4" transform="translate(-.05 -.05)">
+                    <path id="Path_62-4" d="M3 12a1 1 0 0 1 .9-1h16.2a1 1 0 0 1 0 2H3.9a1 1 0 0 1-.9-1z" class="cls-2"/>
+                    <path id="Path_63-4" d="M12 3a1 1 0 0 1 1 .9v16.2a1 1 0 0 1-2 0V3.9a1 1 0 0 1 1-.9z" class="cls-2"/>
+                </g>
+            </g>
+            <g id="ic-actions-add-simple-5" transform="translate(454 310)">
+                <path id="Rectangle_24-5" d="M0 0H24V24H0z" class="cls-1"/>
+                <g id="Layer-5" transform="translate(-.05 -.05)">
+                    <path id="Path_62-5" d="M3 12a1 1 0 0 1 .9-1h16.2a1 1 0 0 1 0 2H3.9a1 1 0 0 1-.9-1z" class="cls-2"/>
+                    <path id="Path_63-5" d="M12 3a1 1 0 0 1 1 .9v16.2a1 1 0 0 1-2 0V3.9a1 1 0 0 1 1-.9z" class="cls-2"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

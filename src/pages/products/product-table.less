@@ -1,0 +1,35 @@
+.product__table {
+    .ant-table-tbody {
+        width: 100%;
+        background-color: white;
+    }
+    &--category {
+        label {
+            display: block;
+            color: #333;
+            padding: 0 0 16px 0;
+            line-height: 1.5715;
+            white-space: initial;
+            text-align: left;
+
+            &:before {
+                display: inline-block;
+                margin-right: 4px;
+                color: #ff4d4f;
+                font-size: 14px;
+                font-family: SimSun, sans-serif;
+                line-height: 1;
+                content: '*';
+            }
+        }
+
+        .category__item {
+            background-color: #e3e3e3;
+            display: flex;
+            align-items: center;
+            padding-left: 5px;
+            cursor: pointer;
+            border: 1px solid #e3e3e3;
+        }
+    }
+}

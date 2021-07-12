@@ -1,0 +1,101 @@
+.detail-script {
+    background: @color_bg_gray;
+}
+
+.wrap-layout-sidebar .main .content.script-detail-content {
+    padding: 0;
+    background-color: @color_bg_gray;
+
+    .ant-tabs-nav {
+        border-bottom: solid 1px @color_border;
+        background-color: @color_card_header;
+        height: 64px;
+        margin-bottom: 0;
+
+        .ant-tabs-tab {
+            .ant-tabs-tab-btn {
+                & > span {
+                    display: inline-flex;
+                    align-items: center;
+
+                    .anticon {
+                        font-size: 20px;
+                        margin-right: 7px;
+                    }
+                }
+            }
+        }
+    }
+
+    .ant-tabs-content {
+        padding: 20px 50px;
+
+        .ant-card {
+            &.ant-card-bordered {
+                border-radius: @size_border_radius;
+                border: solid 1px @color_card_border;
+
+                .ant-card-head {
+                    @card_head_height: 55px;
+
+                    height: @card_head_height;
+                    border-bottom: solid 1px @color_card_border;
+                    background-color: @color_card_header;
+
+                    .ant-card-head-wrapper {
+                        height: @card_head_height;
+
+                        .ant-card-extra {
+                            .trigger-dropdown-btn {
+                                width: 35px;
+                                height: 35px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                border-radius: @size_border_radius;
+                                box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.05);
+                                border: solid 1px @color_border;
+                                background-color: #fcfcfd;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.order_title_modal {
+    .order_code {
+        color: @color_primary;
+    }
+}
+
+.product-name {
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 0.22px;
+    text-align: left;
+    color: @color_primary_empty_page;
+}
+
+.keywords {
+    margin-top: 10px;
+}
+
+.keyword {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: inline-block;
+
+    &:hover {
+        opacity: 1 !important;
+    }
+}
+
+.script-report-cutomer {
+    .ant-tabs-content {
+        padding: 0 !important;
+    }
+}

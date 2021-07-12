@@ -1,0 +1,56 @@
+.tab-pages:hover,
+.tab-pages:active,
+.tab-pages:focus {
+    overflow-x: auto;
+}
+
+.tab-pages {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // border-bottom: 1px solid @color_border;
+    height: @size_header + 10px;
+    background: #fff;
+    overflow: hidden;
+    width: 100%;
+
+    .tab-pages-items {
+        display: flex;
+        align-items: center;
+        // border-bottom: 1px solid @color_border;
+        height: @size_header + 10px;
+        background: #fff;
+        overflow: hidden;
+    }
+
+    .title {
+        font-size: 23px;
+        line-height: 1.22;
+        text-align: left;
+        color: #40484e;
+        padding-left: 30px;
+        padding-right: 12px;
+        flex-shrink: 0;
+    }
+
+    .menus {
+        margin-left: 10px;
+    }
+
+    .pages-draggable {
+        display: flex;
+        overflow-x: auto;
+        overflow-y: visible;
+    }
+
+    .btn-page {
+        .hide-tooltip {
+            font-size: 11px;
+            width: 75px;
+        }
+    }
+}
+
+.page-active {
+    background: #e6e6ec;
+}

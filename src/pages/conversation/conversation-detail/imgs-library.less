@@ -1,0 +1,58 @@
+.imgs-col {
+    display: flex;
+    flex-direction: column;
+
+    .heading {
+        height: 50px;
+        line-height: 50px;
+        padding: @size_space;
+        font-weight: 500;
+        z-index: 100;
+    }
+
+    .content {
+        padding: @size_space;
+        height: calc(100vh - 300px);
+        overflow-y: auto;
+    }
+
+    .footer-img {
+        padding: @size_space;
+    }
+
+    .listCate {
+        margin-left: -15px;
+        margin-right: -15px;
+        .cate {
+            cursor: pointer;
+            position: relative;
+
+            .inner {
+                padding: 10px 15px;
+            }
+
+            .delete {
+                display: none;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                right: 10px;
+            }
+
+            &:hover {
+                .delete {
+                    display: block;
+                }
+            }
+
+            &.active,
+            &:hover {
+                background: @color_light;
+
+                .delete {
+                    display: block;
+                }
+            }
+        }
+    }
+}

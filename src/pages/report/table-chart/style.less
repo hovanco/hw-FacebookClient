@@ -1,0 +1,26 @@
+.table-chart {
+    width: 100%;
+    border: 1px solid @color_border;
+
+    th,
+    td {
+        font-size: 12px;
+        padding: 15px 5px;
+        border-right: 1px solid @color_border;
+        border-bottom: 1px solid @color_border;
+    }
+
+    td {
+        text-align: center;
+    }
+
+    th {
+        white-space: nowrap;
+        background: @color_light;
+        font-weight: 500;
+
+        &:nth-child(n + 2) {
+            text-align: center;
+        }
+    }
+}

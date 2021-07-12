@@ -1,0 +1,69 @@
+.modal-update-label {
+    .ant-modal-header {
+        background-color: @color_card_header;
+    }
+
+    .tag-col {
+        display: flex;
+        align-items: center;
+        
+        .ant-tag {
+            white-space: normal;
+            word-break: break-all;
+        }
+
+        &.ant-col-6 {
+            .ant-tag {
+                width: 100%;
+                min-height: 32px;
+                line-height: 32px;
+            }
+        }
+
+        &.ant-col-24 {
+            margin-bottom: 30px;
+            justify-content: center;
+        }
+    }
+}
+
+.color-picker-trigger {
+    position: relative;
+
+    .ant-input {
+        width: 100%;
+    }
+
+    &__color-value {
+        @content_size: 12px;
+
+        position: absolute;
+        width: @content_size;
+        height: @content_size;
+        top: 50%;
+        right: 10px;
+        transform: translate(0, -50%);
+        z-index: 999;
+        border-radius: 2px;
+    }
+}
+
+.cancel-btn {
+    background: #f9f9f9;
+}
+
+.primary-icon {
+    .anticon {
+        color: @color_primary;
+    }
+}
+
+.setting-tab-content {
+    .header-label {
+        .ant-col:nth-child(1) {
+            .ant-select-selector {
+                border: none;
+            }
+        }
+    }
+}

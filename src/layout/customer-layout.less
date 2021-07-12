@@ -1,0 +1,42 @@
+.main {
+    flex: 1;
+
+    .heading {
+        padding: 0 @size_space + 5;
+        min-height: 65px;
+        border-bottom: 1px solid @color_border;
+        font-size: 18px;
+        font-weight: 500;
+        background: #fff;
+    }
+
+    .content {
+        padding: @size_space + 5;
+        height: calc(100vh - 65px);
+        overflow-y: auto;
+    }
+}
+
+.sidebar {
+    background: @color_sidebar_bg;
+    width: 45px;
+    flex-shrink: 0;
+    height: calc(100vh - 48px);
+    overflow-y: auto;
+
+    &-item {
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        color: @color_sidebar_color;
+        font-size: 18px;
+
+        &.active,
+        &:hover {
+            background: @color_sidebar_bg_hover;
+            color: @color_sidebar_color_hover;
+        }
+    }
+}

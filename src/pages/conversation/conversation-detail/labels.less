@@ -1,0 +1,38 @@
+.labels {
+    // display: grid;
+}
+
+.labels-all {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.label {
+    color: #fff;
+    text-align: center;
+    opacity: 0.5;
+    padding: 0 10px;
+    cursor: pointer;
+    font-size: 12px;
+    background: #fff;
+    line-height: 25px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: inline-block;
+
+    &.close {
+        padding-right: 5px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &.more {
+        color: @color_text;
+        font-size: 15px;
+    }
+
+    &:hover {
+        opacity: 1 !important;
+    }
+}

@@ -1,0 +1,91 @@
+.demo {
+    > .ant-row {
+        height: 100vh;
+    }
+
+    .img {
+        display: inline-block;
+        max-width: 100%;
+    }
+
+    .demo-gif {
+        width: 120px;
+        height: 120px;
+    }
+
+    .demo-comment {
+        display: flex;
+        flex-shrink: 5px;
+        .text-comment {
+            background: @color_bg_gray;
+            word-break: break-word;
+            border-radius: 20px;
+            color: #333;
+            font-size: 13px;
+            line-height: 20px;
+            border: none;
+            outline: none;
+            padding: 8px 20px;
+            margin: 0 10px;
+            width: fit-content;
+            max-width: 70%;
+        }
+    }
+
+    .process-comment {
+        padding: @size_space;
+
+        &-title {
+        }
+
+        &-order {
+            .status {
+                font-size: 16px;
+                font-weight: 500;
+            }
+        }
+
+        .product-row {
+            border-bottom: 1px solid #eee;
+            padding: @size_space - 5px 0;
+
+            &:last-child {
+                border: none;
+            }
+        }
+    }
+
+    @border: 1px solid @color_border;
+
+    .test-comment {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        border-left: @border;
+    }
+
+    .page-content,
+    .comments-list,
+    .comments-editor {
+        padding: @size_space;
+    }
+
+    .comments-list {
+        flex: 1;
+        border-bottom: @border;
+        border-top: @border;
+        overflow-y: auto;
+    }
+
+    .comments-editor {
+        input {
+            min-height: 50px;
+            border-radius: 10px;
+            background-color: @color_bg_gray;
+            border: none;
+            padding: 0 10px;
+            display: block;
+            width: 100%;
+        }
+    }
+}

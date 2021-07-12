@@ -1,0 +1,21 @@
+.upload-img {
+    .label {
+        margin-bottom: 10px;
+    }
+
+    .frame {
+        border: 1px dashed @color_border;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: @size_border_radius;
+        cursor: pointer;
+        background-size: cover;
+        background-position: center;
+
+        &:hover {
+            border-color: @color_primary;
+            color: @color_primary;
+        }
+    }
+}
